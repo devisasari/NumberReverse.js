@@ -8,6 +8,6 @@ Output: 50 20 10
 */
 
 function NumberReverse(num) {
-    return String(num).split("").reverse().join("");
+    return String(num).split(" ").reverse().join(" ");
 }
 console.log(NumberReverse(readline()));
